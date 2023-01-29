@@ -1,3 +1,6 @@
+# Achieved Goals
+I was able to achieve the main goals by being able to get a main transaction on the main screen, from there if you click on the hash or the parent hash it will send you to information on it and it will show you all transactions, if you click on a transaction then it will show you the transaction details. I also made a gas genorator and as well I was about to make a chain where it pulls 4 blocks out of the chain, and you are able to interacted with it as well.
+
 # Ethereum Block Explorer
 
 The lessons this week covered the Ethereum JSON-RPC API and the `ethers.js` library giving us the ability to query the Ethereum blockchain and make transactions!

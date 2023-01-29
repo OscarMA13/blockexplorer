@@ -5,9 +5,121 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(210, 36%, 96%);
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav {
+  position: fixed;
+    top: -1%;
+    width: 10%;
+    left: 0;
+    right: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+   margin-top: 30px;
+    background-color: rgb(174, 212, 181);
+    padding: 10px;
+    display: flexbox;
+    justify-content: center;
+    border-radius: 20px;
+    border-radius: 57px;
+background: seagreen;
+
+    
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+
+}
+
+
+.block-info {
+  text-align: center;
+  background-color: #a2aaa8;
+  width: 500px;
+  margin: 0 auto;
+  height: 300px;
+  padding-top:100px;
+  margin-top: 200px;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: small;
+  border-radius: 0px;
+  border-radius: 10px;
+  background: tan;
+
+color: rgb(22, 20, 20);
+}
+
+.blockinfo2{
+  display: flex;
+  text-align: center;
+  background-color: #a2aaa8;
+  width: 500px;
+  margin: 0 auto;
+  height: 300px;
+  padding-top:100px;
+  margin-top: 200px;
+  margin-left: 0px;
+  margin-right: 100px;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: small;
+  border-radius: 0px;
+  border-radius: 10px;
+  background-color:  hsl(210, 36%, 96%);
+
+
+color: rgb(22, 20, 20);
+}
+
+
+
+.TransactionInfo{
+  position: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(17, 18, 17);
+  font-size: medium;
+}
+
+.Chain-Link {
+  position: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(17, 18, 17);
+  font-size: 4em;
+
+}
+
+
+.gasestimator{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(60, 24, 66);
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  
+}
+.position{
+  left: 100;
 }
